@@ -1,0 +1,97 @@
+Exercicio 1.
+
+Conferir pedidos duplicados.
+
+Imagine que ao registrar caixas, as vezes o mesmo pedido é escaneado duas vezes.
+
+Peça para o usuário digitar 5 números de pedidos e informe se algum foi digitado mais de uma vez.
+
+Exemplo de saida:
+
+Pedido 1020 já foi registrado!
+
+Dica de lógica:
+
+- Usar uma lista
+- Verificar if pedido in lista
+
+Exercicio 2 - Separar caixas por setor
+
+No armazém:
+
+Pedidos pares - Setor A
+Pedidos ímpares - Setor B
+
+Peça 10 números de pedidos e no final mostre:
+
+Setor A: [ 1002, 1004, 1008 ]
+Setor B: [ 1001, 1003, 1005 ]
+
+Você vai usar:
+
+- % 2
+- duas listas
+- append()
+
+Exercício 3 - Conferir pedidos da nota fiscal
+
+Crie uma lista fixa:
+
+nota_fiscal = [101, 102, 103, 104, 105]
+
+Depois peça para o usuário digitar 5 caixas recebidas.
+
+O programa deve mostrar:
+
+Pedido 101 OK
+Pedido Não está na nota fiscal
+
+Você vai usar:
+
+if pedido in nota_fiscal
+
+Exercicio 4 - Contar quantas caixas chegaram
+
+Peça para o usuário digitar números de pedidos até ele digitar 0.
+
+Depois mostre:
+
+Total de caixas: 8
+
+Você vai usar:
+
+-while
+-contador
+
+Exercicio 5 - Maior pedido do dia.
+
+Mostre no final:
+
+Maior número de pedido: 9821
+
+Dica:
+
+Maior = 0
+
+Exercicio 6 - Verificar sequência de pedidos
+
+Peça 5 números de pedidos e verifique se eles estão em ordem crescente.
+
+Exemplo correto:
+
+1001
+1002
+1003
+1004
+1005
+
+se quebrar a ordem 
+
+sequencia incorreta
+
+salvar como
+
+conferir_pedidos.py
+setor_caixas.py
+nota_fiscal.py
+contador_caixas.py
